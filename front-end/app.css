@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://source.unsplash.com/featured/?healthcare') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .form-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 400px;
+    margin: 5% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .input-field, select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  .toggle-group {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .toggle-btn {
+    flex: 1;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    background-color: #eee;
+    color: #333;
+    border-radius: 8px;
+    margin-right: 5px;
+  }
+  
+  .toggle-btn.active {
+    background-color: lightgreen;
+  }
+  
+  .predict-btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .result {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
